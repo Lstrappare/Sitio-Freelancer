@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preload" href="styles.css" as="style">
     <title>Diseñador Freelancer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
         <h1 class="titulo">Lstrappare <span>Freelancer</span></h1>
     </header>
-
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About me</a>
-        <a href="#">Contact</a>
-        <a href="#">My clients</a>
-    </nav>
     
+    <nav class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Home</a>
+            <a href="#">About me</a>
+            <a href="#">Contact</a>
+            <a href="#">My clients</a>
+        </nav>
+    </nav>
     <section>
         <h2 class="titulo">Desing & Web development <span>Freelancer</span></h2>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -131,9 +134,15 @@
             <summary>Fotos utilizadas</summary>
             <a href="https://www.pexels.com/es-es/foto/papel-pintado-gris-y-blanco-1103970/">Foto de Johannes Plenio</a>
         </details>
+
         <details>
             <summary>Iconos utilizados</summary>
             <a href="https://tablericons.com/">Tabler Icons</a>
+        </details>
+        
+        <details>
+            <summary>Fuentes utilizadas</summary>
+            <a href="https://fonts.google.com/">Google Fonts</a>
         </details>
     </footer>
 

@@ -17,9 +17,24 @@ body{
 .titulo{
     text-align: center;
     font-size: 3.8rem;
+    font-family: 'Arvo', serif;
+    font-weight: normal;
 }
 
-h1.titulo span{
+.titulo span{
     font-size: 2rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+.navegacion-principal{
+    background-color: var(--primario);
 }
 
