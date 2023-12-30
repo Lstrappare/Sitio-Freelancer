@@ -1,4 +1,4 @@
-:root{
+:root {
     --blanco: rgb(255, 255, 255);
     --negro: rgb(0, 0, 0);
     --primario: #e5e4e2;
@@ -6,22 +6,22 @@
     --verde: #B2BEB5;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-body{
+body {
     font-size: 16px;
 }
 
-.titulo{
+.titulo {
     text-align: center;
     font-size: 3.8rem;
     font-family: 'Arvo', serif;
     font-weight: normal;
 }
 
-.titulo span{
+.titulo span {
     font-size: 2rem;
 }
 
@@ -30,11 +30,24 @@ body{
     margin: 0 auto;
 }
 
-.nav-bg{
+.nav-bg {
     background-color: var(--secundario);
 }
 
-.navegacion-principal{
-    background-color: var(--primario);
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
 }
 
+.navegacion-principal a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2rem;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--negro);
+}
